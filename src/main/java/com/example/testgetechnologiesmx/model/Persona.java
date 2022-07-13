@@ -7,7 +7,7 @@ import java.util.Collection;
 
 @Entity
 @JsonIgnoreProperties("facturasByPersonaId")
-@Table(name = "persona", uniqueConstraints = {@UniqueConstraint(name = "uk_identificacion", columnNames = "identificacion")})
+@Table(name = "persona", uniqueConstraints = {@UniqueConstraint(name = "uq_identificacion", columnNames = "identificacion")})
 public class Persona {
     @Id
     @Column(name = "id", nullable = false)
