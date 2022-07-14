@@ -7,6 +7,4 @@ public interface IVentasService {
     ResponseEntity<Object> findFacturasByPersona(Long personaId);
 
     ResponseEntity<Object> storeFactura(Factura factura);
-
-    ResponseEntity<Object> getAll();
 }
