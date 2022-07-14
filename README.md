@@ -1,7 +1,10 @@
-#Test Software Developer GetechnologiesMx
+# Test Software Developer GetechnologiesMx
 
 En este repositorio se encuentra el proyecto de Spring Boot
-para la prueba técnic de la vacante de Back-End developer.
+para la prueba técnica de la vacante de Back-End developer.
+
+Versión de Spring Boot: 2.7.1<br/>
+Versión del JDK utilizado: Java 11
 
 La aplicación puede ser probada en Postman y cuenta con
 las siguientes rutas:
@@ -18,7 +21,7 @@ las siguientes rutas:
    Ejemplo en Postman:<br/>
 
 <p align="center">
-  <img src="/assets/ss1.png" width="200" alt="Screenshot">
+  <img src="/assets/ss1.png" width="500" alt="Screenshot">
 </p>
 2. /api/facturas/personas/{id}<br/>
    Método: GET<br/>
@@ -26,7 +29,7 @@ las siguientes rutas:
 Ejemplo en Postman:<br/>
 
 <p align="center">
-  <img src="/assets/ss2.png" width="200" alt="Screenshot">
+  <img src="/assets/ss2.png" width="500" alt="Screenshot">
 </p>
 3. /api/personas<br/>
    Método: GET<br/>
@@ -34,7 +37,7 @@ Ejemplo en Postman:<br/>
 Ejemplo en Postman:<br/>
 
 <p align="center">
-  <img src="/assets/ss3.png" width="200" alt="Screenshot">
+  <img src="/assets/ss3.png" width="500" alt="Screenshot">
 </p>
 4. /api/personas<br/>
    Método: POST<br/>
@@ -49,7 +52,7 @@ Ejemplo en Postman:<br/>
 Ejemplo en Postman:<br/>
 
 <p align="center">
-  <img src="/assets/ss4.png" width="200" alt="Screenshot">
+  <img src="/assets/ss4.png" width="500" alt="Screenshot">
 </p>
 5. /api/personas/identificacion<br/>
    Método: DELETE<br/>
@@ -57,7 +60,7 @@ Ejemplo en Postman:<br/>
 Ejemplo en Postman:<br/>
 
 <p align="center">
-  <img src="/assets/ss5.png" width="200" alt="Screenshot">
+  <img src="/assets/ss5.png" width="500" alt="Screenshot">
 </p>
 6. /api/personas/identificacion/{identificacion}<br/>
    Método: GET<br/>
@@ -65,5 +68,5 @@ Ejemplo en Postman:<br/>
 Ejemplo en Postman:<br/>
 
 <p align="center">
-  <img src="/assets/ss6.png" width="200" alt="Screenshot">
+  <img src="/assets/ss6.png" width="500" alt="Screenshot">
 </p>
